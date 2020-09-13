@@ -16,6 +16,7 @@ export class DonaComponent  {
   @Input() doughnutChartLabels: Label[] = ['Sector público', 'Sector Privado', 'Otros'];
 
   // public doughnutChartLabels: Label[] = ['Sector público', 'Sector Privado', 'Otros'];
+  // tslint:disable-next-line: no-input-rename
   @Input('Data') doughnutChartData: MultiDataSet = [
     [350, 450, 100],
   ];
